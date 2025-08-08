@@ -12,12 +12,14 @@ PyTorch：https://github.com/tkipf/pygcn
 
 #### 参考文献：
 [1] T. N. Kipf, and M. Welling, “Semi-Supervised Classification with Graph Convolutional Networks,” in 5th International Conference on Learning Representations, 2017.
+
 [2] R. Q. Charles, H. Su, M. Kaichun, and L. J. Guibas, “PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation,” in 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017, pp. 77-85.
 
 #### 数据集: 
 ModelNet40
 
-给的网址 (https://shapenet.cs.stanford.edu/media/modelnet40_ply_hdf5_2048.zip)打不开，在飞桨平台下： https://aistudio.baidu.com/datasetdetail/35331
+给的网址 (https://shapenet.cs.stanford.edu/media/modelnet40_ply_hdf5_2048.zip)
+打不开，在飞桨平台下： https://aistudio.baidu.com/datasetdetail/35331
 
 #### 数据集读取方式：
 https://github.com/WangYueFt/dgcnn/blob/master/pytorch/data.py
@@ -51,4 +53,6 @@ python train_acc.py --exp_name=multiheadgcn_acc --model_name=multiheadgcn --epoc
 
 # Acknowledgement
 https://github.com/chjchjchjchjchj/3D-point-classification/tree/master
+
 DGCNN(https://github.com/WangYueFt/dgcnn/blob/master/pytorch/) by WangYueFt
+
